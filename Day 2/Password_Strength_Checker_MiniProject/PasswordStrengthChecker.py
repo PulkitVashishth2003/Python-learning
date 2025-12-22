@@ -1,14 +1,17 @@
 passcode = input("Enter your password: ")
 length = len(passcode)
+# check for length
 if length < 8:
     print("Weak password: Password must be at least 8 characters long.")
 else:
     print("Length condition fulfilled.")
+# check for special character
 has_special = any(not char.isalnum() for char in passcode)
 if has_special == False:
     print("Weak password: Password must contain at least one special character.")
 else:
     print("Special character condition fulfilled.")
+# check for upper case, lower case and numerical characters
 has_upper = any(char.isupper() for char in passcode)
 if has_upper == False:
     print("Weak password: Password must contain at least one Upper Case Alphabet.")
@@ -25,6 +28,7 @@ if has_num == False:
 else:
     print("Numerical character condition fulfilled.")
 
+# gives final result
 if (length >= 8) and has_special and has_upper and has_lower and has_num:
     print("\nStrong password!\n")  
 else:
