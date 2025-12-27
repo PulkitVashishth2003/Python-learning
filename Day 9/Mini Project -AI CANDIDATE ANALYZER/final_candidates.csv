@@ -1,0 +1,10 @@
+name,age,experience,score,result
+Alice,23,1,85,Rejected
+Bob,25,2,90,Selected
+Charlie,22,0,78,Rejected
+David,24,1,88,Selected
+Eve,26,3,92,Selected
+Frank,23,2,80,Rejected
+Grace,27,4,95,Selected
+Hannah,24,1,87,Rejected
+Ian,28,5,93,Selected
