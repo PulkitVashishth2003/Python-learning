@@ -1,0 +1,11 @@
+name,age,experience,score
+Alice,23,1,85
+Bob,,2,90
+Charlie,22,,78
+David,24,1,
+Eve,?,3,88
+Rashmi,25,,10
+Tanu,27,2,15
+Sumit,28,4,?
+Siddhart,23,4,50
+Pulkit,,,90
