@@ -1,0 +1,11 @@
+,Unnamed: 0,age,experience,score,experience level,name_Alice,name_Bob,name_Charlie,name_David,name_Eve,name_Pulkit,name_Rashmi,name_Siddhart,name_Sumit,name_Tanu
+0,0,-0.9116161231812202,-1.4494275891311208,0.765470285210406,Junior,True,False,False,False,False,False,False,False,False,False
+1,1,0.0,-0.4348282767393361,0.9414404657185453,Senior,False,True,False,False,False,False,False,False,False,False
+2,2,-1.4917354742965416,0.0,0.519112032499011,Senior,False,False,True,False,False,False,False,False,False,False
+3,3,-0.33149677206589884,-1.4494275891311208,0.0,Junior,False,False,False,True,False,False,False,False,False,False
+4,4,0.0,0.5797710356524486,0.8710523935152896,Senior,False,False,False,False,True,False,False,False,False,False
+5,5,0.24862257904942256,0.0,-1.8740824224116837,Senior,False,False,False,False,False,False,True,False,False,False
+6,6,1.4088612812800654,-0.4348282767393361,-1.6981122419035444,Senior,False,False,False,False,False,False,False,False,False,True
+7,7,1.9889806323953867,1.5943703480442333,0.0,Senior,False,False,False,False,False,False,False,False,True,False
+8,8,-0.9116161231812202,1.5943703480442333,-0.46632097834656916,Senior,False,False,False,False,False,False,False,True,False,False
+9,9,0.0,0.0,0.9414404657185453,Senior,False,False,False,False,False,True,False,False,False,False
