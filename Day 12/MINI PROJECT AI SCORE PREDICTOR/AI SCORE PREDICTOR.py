@@ -3,8 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-df = pd.read_csv("D:/Python learning/Day 11/MINI PROJECT — ML-READY FEATURE PIPELINE/final.csv")
-
+file_path = r"D:\Python learning\Day 11\MINI PROJECT — ML-READY FEATURE PIPELINE\final.csv"
+df = pd.read_csv(file_path)
+df['experience level'] = df['experience level'].map({'Junior': 0, 'Senior': 1})
 X = df.drop("score", axis=1)
 y = df["score"]
 
